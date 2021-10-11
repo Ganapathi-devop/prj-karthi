@@ -1,23 +1,18 @@
-var loader;
+$(window).on("load", function () {
 
-function loadNow(opacity) {
-    if (opacity <= 0) {
-        displayContent();
-    } else {
-        loader.style.opacity = opacity;
-        window.setTimeout(function() {
-            loadNow(opacity - 0.05);
-        }, 50);
-        console.log("hello")
-    }
-}
+    "use strict";
 
-function displayContent() {
-    loader.style.display = 'none';
-    document.getElementsByClassName('content').style.display = 'block';
-}
+    /* ===================================
+            Loading Timeout
+     ====================================== */
 
-document.addEventListener("DOMContentLoaded", function() {
-    loader = document.getElementById('loader');
-    loadNow(1);
+    setTimeout(function(){
+        $('.pre-loader').fadeOut();
+
+        $('.cd-transition-layer').addClass('closing').delay(1000).queue(function(){
+            $(this).removeClass("visible closing opening").dequeue();
+        });
+
+    }, 1000);
+
 });
