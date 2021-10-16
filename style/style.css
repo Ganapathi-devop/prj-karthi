@@ -96,7 +96,6 @@
   color: #fff;
 }
 #navlines-icon{
-  display: inline;
   position: absolute;
   top: 5%;
   left: 35.5%;
@@ -104,29 +103,7 @@
   float: none;
   color: #fff;
   font-size: 2.2rem;
-  /* transition: all 500ms ease-in; */
-}
-#nava-1:hover #navlines-icon{
-  left: 35.5%;
-}
-#nava-2:hover #navlines-icon{
-  left: 43%;
-}
-#nava-3:hover #navlines-icon{
-  left: 51.5%;
-  transition: all 500ms ease-in;
-}
-#nava-4:hover #navlines-icon{
-  left: 60.5%;
-  transition: all 500ms ease-in;
-}
-#nava-5:hover #navlines-icon{
-  left: 69%;
-  transition: all 500ms ease-in;
-}
-#nava-6:hover #navlines-icon{
-  left: 79%;
-  transition: all 500ms ease-in;
+  transition: all 500ms ease-in-out;
 }
 #btn-style {
   width: max-content;

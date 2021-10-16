@@ -25,6 +25,12 @@
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
+    .header-headleft{width: 30%; padding: 0%;}
+    .nav-lines{float: left;}
+    .btn-lines{float: none;}
+    .logo{ justify-content: center; padding-right: 12rem;}
+    #logo{width: 17rem;}
+    .header-headright{display: block;}
     .logo{padding-right: 2rem;}
 }
 
