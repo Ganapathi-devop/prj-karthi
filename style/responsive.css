@@ -1,0 +1,39 @@
+/* responsive code */
+
+/* responsive code for header */
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .header-headleft{width: 100%; padding: 0px 3.5%;}
+    .nav-lines{float: right;}
+    .btn-lines{float: right;}
+    .logo{ justify-content: flex-start;}
+    #logo{width: 13rem;}
+    .header-headright{display: none;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .header-headleft{width: 100%; padding: 0px 3.5%;}
+    .nav-lines{float: right;}
+    .btn-lines{float: right;}
+    .logo{ justify-content: flex-start;}
+    #logo{width: 15rem;}
+    .header-headright{display: none;}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logo{padding-right: 2rem;}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .header-headleft{width: 30%; padding: 0%;}
+    .nav-lines{float: left;}
+    .btn-lines{float: none;}
+    .logo{ justify-content: center; padding-right: 12rem;}
+    #logo{width: 17rem;}
+    .header-headright{display: block;}
+}

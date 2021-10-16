@@ -14,6 +14,9 @@
     <!-- common stylesheet -->
     <link rel="stylesheet" href="/style/style.css" />
 
+    <!-- responsive stylesheet -->
+    <link rel="stylesheet" href="/style/responsive.css" />
+
     <!-- pre-loader stylesheet -->
     <link rel="stylesheet" href="/preloader/loader-style.css" />
     <!-- bootstrap cdn -->
@@ -39,6 +42,10 @@
       integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
       crossorigin="anonymous"
     ></script>
+
+    <!-- Font Awesome cdn -->
+    <script src="https://use.fontawesome.com/2195943dbd.js"></script>
+    
     <title>Document</title>
   </head>
   <body>
@@ -56,7 +63,6 @@
     <div class="content">
       <div class="header">
         <div class="header-head">
-
           <div class="header-headleft">
             <div class="nav-lines">
               <button class="btn-lines">
@@ -66,19 +72,20 @@
               </button>
             </div>
             <div class="logo">
-              <img src="/img/logo-white.png" alt="logo" id="logo"/>
+              <img src="/img/logo-white.png" alt="logo" id="logo" />
             </div>
           </div>
 
           <div class="header-headright">
+            <i class="fa fa-angle-down icon" id="navlines-icon"></i>
             <div class="nav-links">
-              <a class="nav-a" href="#">Home</a>
-              <a class="nav-a" href="#">About</a>
-              <a class="nav-a" href="#">Our Work</a>
-              <a class="nav-a" href="#">Clients</a>
-              <a class="nav-a" href="#">Our Blog</a>
-              <a class="nav-a" href="#">Contact Us</a>
-              
+              <a class="nav-a" id="nava-1" href="#">Home</a>
+              <a class="nav-a" id="nava-2" href="#">About</a>
+              <a class="nav-a" id="nava-3" href="#">Our Work</a>
+              <a class="nav-a" id="nava-4" href="#">Clients</a>
+              <a class="nav-a" id="nava-5" href="#">Our Blog</a>
+              <a class="nav-a" id="nava-6" href="#">Contact Us</a>
+
               <a
                 class="
                   btn btn-medium btn-rounded btn-transparent-white btn-hvr-white
@@ -99,9 +106,7 @@
                 </div>
               </a>
             </div>
-            
           </div>
-
         </div>
       </div>
     </div>
